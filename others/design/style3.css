@@ -1,0 +1,57 @@
+h1{
+	background-color:pink;
+	text-align:centre;
+	width:95%;
+	border-style:dotted;
+}
+#nav{
+	margin-left:none;
+	border-style:ridge;
+	width:95%;
+	background-color:lightviolet;
+	float:top;
+}
+input{
+	background-color:rose;
+	border-color:black;
+	box-sizing:input-box;
+	border-style:ridge;
+	margin-top:15px;
+}
+#all{
+	background-color:gold;
+	border-color:green;
+	box-sizing:border-box;
+	width:200;
+	height:250;
+	margin-top:00px;
+	border-style:double;
+	border-color:blue;
+}
+body{
+	background-color:pink
+}
+#t{
+	background-color:orange;
+	border-type:ridge;
+	width:auto;
+	border-color:black;
+}
+#m{
+	background-color:blue;
+	border-type:ridge;
+	width:auto;
+	border-color:black;
+}
+#a{
+	width:80%;
+}
+#t:hover {
+	background-color:yellow;
+}
+#a:hover {
+	background-color:indigo;
+	color:white;
+	border-color:gray;
+	border-style:double;
+}

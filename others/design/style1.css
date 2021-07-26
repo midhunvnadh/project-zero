@@ -1,0 +1,95 @@
+body{
+	background-color:pink;
+	text-color:gold;
+}
+h1{
+	background-image:other/design/style2.css;
+	text-align:centre;
+	width:95%;
+	border-style:dashed;
+	animation-name:animation;
+	aniation-duration:3s;
+	-moz-animation-duration:1s;
+	-webkit-animation-duration:1s;
+	-moz-animation-name:slidein;
+	-webkit-animation-name:slidein;
+}@-moz-keyframes
+slidein{
+	from {
+	margin-left:100%;
+	width:300%;
+}
+to{
+	margin-left:0%;
+	width:100%;
+}
+}
+@-webkit-keyframes
+slidein{
+	from {
+	margin-left:100%;
+	width:300%;
+}
+to{
+	margin-left:0%;
+	width:100%;
+}
+}
+</style>
+#div3{
+	width:1000;
+	height:auto;
+	background-color:blue;
+	margin-left:25;
+}
+hr{
+	width:95%;
+	align:center;
+	color:blue;
+}
+#bttn{
+	align:center;
+	color:black;
+	box-sizing:border-box;
+	border-color:rose;
+	background-color:rose;
+}
+img{
+	margin-left:30px;
+	width:100;
+	height:100;
+	border-style:double;
+}
+h4{
+	float:right;
+}
+#nav{
+	margin-left:none;
+	border-style:ridge;
+	width:95%;
+	background-color:lightviolet;
+	float:top;
+}
+#more{
+	background-color:rose;
+	border-style:double;
+	float:bottom;
+}
+#t{
+	background-color:orange;
+	border-type:ridge;
+	width:auto;
+	border-color:black;
+}
+#m{
+	background-color:blue;
+	border-type:ridge;
+	width:auto;
+	border-color:black;
+}
+#bttn:hover {
+	background-color:lightblue;
+}
+#t:hover {
+	background-color:yellow;
+}

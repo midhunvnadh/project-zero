@@ -1,0 +1,11 @@
+div{
+	top-margin:150;
+	border-style:double;
+	border-color:blue;
+}
+body{
+	background-color:pink;
+}
+#t:hover {
+	background-color:yellow;
+}
